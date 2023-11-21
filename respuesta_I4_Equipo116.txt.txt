@@ -1,0 +1,12 @@
+Participantes:
+- Quiroga María Emilia: BETA
+- Spatola Mateo: ALFA
+- Monson Ezequiel: GAMMA
+
+
+---
+
+A- El color de fondo que quedó en la rama TESTING es azul.
+B- El color de fondo que quedó en la rama DESARROLLO es amarillo.
+C- El color de fondo que quedó en la rama main es verde.
+D- EL Favicon que quedó en la rama main es el de BETA.
