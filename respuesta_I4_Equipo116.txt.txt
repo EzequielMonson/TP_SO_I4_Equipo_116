@@ -10,3 +10,17 @@ A- El color de fondo que quedó en la rama TESTING es azul.
 B- El color de fondo que quedó en la rama DESARROLLO es amarillo.
 C- El color de fondo que quedó en la rama main es verde.
 D- EL Favicon que quedó en la rama main es el de BETA.
+
+---
+Pregunta:
+E- ¿Algún integrante tuvo problemas al hacer el push?
+F- ¿Qué problemas surgieron?
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución adoptada?
+H- ¿Qué sucede si cada uno utiliza el push -f?
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18, 19 y 20 en DESARROLLO ?
+
+E- Si beta y gamma tuvieron problemas con el push.
+F- Nos dio el problema de que no era posible hacer el push sin antes actualizar el repositorio local.
+G- La solucion fue hacer los cambios manualmente, lo cual no es lo mas optimo ya que nos llevo mas tiempo.
+H- El comando git push -f se utiliza en Git para forzar la actualización remota de una rama, incluso si esto implica reescribir la historia del repositorio. Por lo tanto en el index solo nos quedarian los cambios de Gamma.
+I- En la rama DESARROLLO (posicionandonos con el comando git checkout DESARROLLO) hacer un git merge TESTING, y luego git push origin DESARROLLO.
